@@ -8,7 +8,7 @@ func TestFirst(t *testing.T) {
 
 	var size uint = 3
 
-	random, err := genereteRandString(size, NUMBER)
+	random, err := GenereteRandString(size, NUMBER)
 
 	if err != nil {
 
@@ -27,7 +27,7 @@ func TestNumberUpperALPHA(t *testing.T) {
 
 	var size uint = 18
 
-	random, err := genereteRandString(size, NUMBER, UPPER_CASE_ALPHA)
+	random, err := GenereteRandString(size, NUMBER, UPPER_CASE_ALPHA)
 
 	if err != nil {
 
@@ -40,7 +40,7 @@ func TestNumberUpperALPHA(t *testing.T) {
 
 	}
 
-	randomTwo, err := genereteRandString(size, NUMBER, UPPER_CASE_ALPHA)
+	randomTwo, err := GenereteRandString(size, NUMBER, UPPER_CASE_ALPHA)
 
 	if randomTwo == random {
 

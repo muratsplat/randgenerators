@@ -21,7 +21,7 @@ const (
 )
 
 // to generetes random characters
-func genereteRandString(strSize uint, types ...RandType) (dicts string, err error) {
+func GenereteRandString(strSize uint, types ...RandType) (dicts string, err error) {
 
 	if len(types) == 0 {
 
