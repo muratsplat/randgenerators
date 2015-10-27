@@ -33,4 +33,7 @@ Include in your source code:
 
     import "github.com/muratsplat/randgenerators"
 
-
+Todos
+-----
+ - To improvinging performance: http://stackoverflow.com/questions/22892120/how-to-generate-a-random-string-of-a-fixed-length-in-golang
+ - To make sure works correctly.
