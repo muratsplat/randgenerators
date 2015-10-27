@@ -1,4 +1,4 @@
-highLevelStat
+RandGenerators
 =============
 [![Build Status](https://travis-ci.org/muratsplat/randgenerators.svg)](https://travis-ci.org/muratsplat/randgenerators)
 
