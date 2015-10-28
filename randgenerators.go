@@ -7,9 +7,9 @@ import (
 )
 
 const (
-	LOWER_CASE_ALPHAS = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
-	UPPER_CASE_ALPHAS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-	NUMBERS           = "0123456789"
+	lower_case_alphas = "abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz"
+	upper_case_alphas = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
+	numbers           = "0123456789"
 )
 
 type RandType byte
@@ -35,14 +35,14 @@ func GenereteRandString(strSize uint, types ...RandType) (dicts string, err erro
 		switch v {
 
 		case NUMBER:
-			dicts += NUMBERS
+			dicts += numbers
 			break
 		case UPPER_CASE_ALPHA:
-			dicts += UPPER_CASE_ALPHAS
+			dicts += upper_case_alphas
 			break
 
 		case LOWER_CASE_ALPHA:
-			dicts += LOWER_CASE_ALPHAS
+			dicts += lower_case_alphas
 			break
 		}
 

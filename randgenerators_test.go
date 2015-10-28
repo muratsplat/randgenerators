@@ -70,9 +70,9 @@ func isLower(char byte) bool {
 
 	var byt byte
 
-	for i := 0; i < len(UPPER_CASE_ALPHAS); i++ {
+	for i := 0; i < len(upper_case_alphas); i++ {
 
-		byt = UPPER_CASE_ALPHAS[i]
+		byt = upper_case_alphas[i]
 
 		if byt == char {
 
